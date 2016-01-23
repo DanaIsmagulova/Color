@@ -13,11 +13,9 @@ namespace ConsoleApplication3
         {
             ConsoleColor oldColor = Console.ForegroundColor;
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.Write("I ");
-           
+            
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("am sexy and i know it");
+            Console.WriteLine("Hello World!");
 
             Console.ForegroundColor = oldColor;
         }
